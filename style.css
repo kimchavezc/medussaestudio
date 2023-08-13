@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+}
+.home {
+  display: flex;
+  flex-wrap: wrap;
+}
+.enlace {
+  text-decoration: none;
+  font-family: "Berkshire Swash", cursive;
+  font-size: 20px;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(250, 147, 224);
+  font-family: "Berkshire Swash", cursive;
+}
+header img {
+  width: 150px;
+  border-radius: 50%;
+}
+header ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+header ul li {
+  margin: 15px;
+  font-size: 20px;
+}
+h1 {
+  font-family: "Berkshire Swash", cursive;
+}
+h2 {
+  font-family: "Berkshire Swash", cursive;
+}
+h3 {
+  font-family: "Berkshire Swash", cursive;
+}
+p {
+  font-family: "Alice", serif;
+}
+.lista {
+  font-family: "Alice", serif;
+}
+footer {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(250, 147, 224);
+  font-family: "Berkshire Swash", cursive;
+}
